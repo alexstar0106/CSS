@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Extra Light Italic'), local('Montserrat-Extra-Light-Italic'),
+        url('./font/Montserrat-ExtraLightItalic.ttf') format('woff2'),
+        url('./font/Montserrat-ExtraLightItalic.woff') format('woff'),
+        url('./font/Montserrat-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Montserrat';
+}

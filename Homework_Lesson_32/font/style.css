@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Extra Light Italic'), local('Montserrat-Extra-Light-Italic'),
+        url('Montserrat-ExtraLightItalic.woff2') format('woff2'),
+        url('Montserrat-ExtraLightItalic.woff') format('woff'),
+        url('Montserrat-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
