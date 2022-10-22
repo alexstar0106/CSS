@@ -1,0 +1,13 @@
+p {
+    background-color: blanchedalmond;
+    width: 500px;
+    text-align: center;
+    text-indent: 50px;
+    line-height: 2;    
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
