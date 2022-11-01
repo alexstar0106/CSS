@@ -1,0 +1,20 @@
+.box1 {
+    width: 500px;
+    height: 200px;
+    border-bottom-style: solid;
+}
+
+.box2 {
+    width: 500px;
+    height: 200px;
+    border-style: dashed double;
+    border-color: red black;
+}
+
+.box3 {
+    width: 500px;
+    height: 200px;
+    border-left: dotted violet;
+    border-bottom: solid blue;
+    border-right: double violet;
+}
