@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 750px;
+    height: 350px;
+    border: 5px solid black;
+}
+
+.box1 {
+    width: 700px;
+    height: 300px;
+    border: solid;
+    margin: 10px;
+}
+
+.box2 {
+    width: 700px;
+    height: 300px;
+    border: solid red;
+    margin: 10px 20px;
+}
+
+.box3 {
+    width: 700px;
+    height: 300px;
+    border: solid green;
+    margin: 10px 20px 30px;
+}
+
+.box4 {
+    width: 700px;
+    height: 300px;
+    border: solid blue;
+    margin: 10px 20px 30px 40px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
