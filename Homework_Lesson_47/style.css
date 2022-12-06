@@ -1,0 +1,26 @@
+div {
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+    transition-property: background-color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+}
+
+p {
+    font-size: 20px;
+    color:blue;
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+}
+
+div:hover {
+    background-color:pink;
+}
+
+p:hover {
+    color: black;
+}
