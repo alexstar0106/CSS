@@ -1,0 +1,22 @@
+.container {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 50px auto;
+    position: relative;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 150px; top: 0;
+    animation: anim 3s linear infinite;
+}
+
+@keyframes anim {
+    20% { transform: rotate(-90deg) translate(-200px, 175px)}
+    40% { transform: translate(0, 450px)}
+    60% { transform: rotate(90deg) translate(200px, 175px)}
+}
