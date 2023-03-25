@@ -1,0 +1,21 @@
+$fontColor: red;
+$backgroundColor: aqua;
+$fontSize: 20px;
+$fontFamily: Tahoma, sans-serif;
+
+.popup {
+    width: auto;
+    height: 600px;
+    background-color: $backgroundColor;
+    &__title {
+        font-size: $fontSize;
+        font-family: $fontFamily;
+    }
+    &__text {
+        color: $fontColor;
+    }
+    &__button {
+        color: white;
+        background-color: blue;
+    }
+}
