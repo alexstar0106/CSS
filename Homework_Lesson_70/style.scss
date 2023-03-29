@@ -1,0 +1,43 @@
+%container {
+    width: auto;
+    height: 200px;
+    border: 2px solid black;
+}
+
+%flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin style($width, $height, $color) {
+    width: $width;
+    height: $height;
+    background-color: $color;
+    border-radius: 50%;
+}
+
+.box-1 {
+    @extend %container, %flex
+}
+
+.box-1 div {
+    @include style(20px, 20px, aqua )
+}
+
+.box-2 {
+    @extend %container, %flex
+}
+
+.box-2 div {
+    @include style(50px, 50px, red)
+}
+
+.box-3 {
+    @extend %container, %flex
+}
+
+.box-3 div {
+    @include style(80px, 80px, blue)
+}
+    
